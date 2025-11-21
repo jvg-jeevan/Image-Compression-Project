@@ -89,17 +89,6 @@ src/
 ├── vq.py                   # Vector Quantization (LBG/k-means, encoding & decoding)
 │
 └── main.py                 # Full pipeline + Gradio front-end UI
-|
-├── assets/
-│   ├── output_screen.jpg
-│   ├── images_output.jpg
-│   ├── dog_input.png
-│   ├── Huffman.png
-│   ├── Arithmetic.png
-│   ├── rice.png
-│   ├── dct.png
-│   ├── vq.png
-│   ├── comparison_graph.png
 │
 └── README.md
 
@@ -148,22 +137,22 @@ http://127.0.0.1:7860
 
 ### **Input Image**
 
-![Input](assets/input_image.jpeg)
+![Input](assets/input_image.png)
 
 
 ---
 
 ### **Reconstructed Outputs**
 
-Huffman
+Huffman reconstruction <br>
 ![Huffman](assets/Huffman.png)<br>
-Arithmetic
+Arithmetic reconstruction <br>
 ![Arithmetic](assets/Arithmetic.png)<br>
-Rice
+Rice reconstruction <br>
 ![Rice](assets/Rice.png)<br>
-DCT
+DCT reconstruction <br>
 ![DCT](assets/DCT.png)<br>
-VQ
+VQ reconstruction <br>
 ![VQ](assets/VQ.png)
 
 ---
