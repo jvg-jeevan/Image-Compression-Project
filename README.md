@@ -1,4 +1,4 @@
-<h1 align="center">Image Compression</h1>
+<!-- <h1 align="center">Image Compression</h1>
 
 <p align="center">
   A unified image compression system combining <b>entropy</b>, <b>transform</b>, and <b>vector quantization</b> techniques  
@@ -235,4 +235,35 @@ National Institute of Technology, Karnataka<br>
 
 This project is licensed under the **MIT License**.
 ---
+ -->
+
+ # Hybrid Multi-Stage Image Compression System
+### Classical Entropy Coders • Transform Coding • Neural Generative Models
+
+This project implements a unified framework for comparing eight image compression techniques, including classical lossless/lossy algorithms and modern neural network–based models. A Gradio-based interface allows users to upload an image, run all compression methods, view reconstructed outputs, and compare compression metrics.
+
+---
+
+## 1. Overview
+
+The system supports the following compression methods:
+
+### Classical Methods
+- Huffman Coding  
+- Arithmetic Coding  
+- Rice (Golomb–Rice) Coding  
+- Block-DCT Compression (JPEG-style)  
+- Vector Quantization (LBG / K-Means)
+
+### Neural Network–Based Methods
+- CNN Lossless Predictor  
+- Autoencoder Compression  
+- VQ-VAE (Vector-Quantized Variational Autoencoder)
+
+This combination enables a comprehensive comparison between traditional hand-crafted techniques and learned generative models.
+
+---
+
+## 2. Project Structure
+
 
